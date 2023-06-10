@@ -1,0 +1,8 @@
+<p>direc-home works!</p>
+
+<form [formGroup]="form">
+    <mat-form-field>
+        <mat-label>Digit Only Input</mat-label>
+        <input matInput [appDigitOnly]="this.form.get('digonly')" formControlName="digonly" placeholder="Enter digits" />
+    </mat-form-field>
+</form>
